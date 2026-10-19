@@ -253,6 +253,16 @@
 \renewcommand{\section}[1]{
   \par%
   {%
+    \LARGE
+    \color{headercolor}%
+    #1%
+  }
+  \par\vspace{\parskip}
+}
+
+\newcommand{\tiksection}[1]{
+  \par%
+  {%
     \LARGE 
     \color{headercolor}%
     \@sectioncolor #1%
